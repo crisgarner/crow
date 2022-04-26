@@ -7,8 +7,8 @@ import "../src/Crow.sol";
 
 contract CrowTest is Test {
     /// variables
-    uint256 moonbirdId = 2968;
-    address moonbirdOwner = 0x8bab29A0dad122B770F095f1E130ded4ceC30a52;
+    uint256 moonbirdId = 1; /// moonbird id
+    address moonbirdOwner = 0x0; /// address of owner
     address moonbirdContract = 0x23581767a106ae21c074b2276D25e5C3e136a68b;
     Moonbirds moonbird = Moonbirds(moonbirdContract);
     address user2 = address(0x2);
